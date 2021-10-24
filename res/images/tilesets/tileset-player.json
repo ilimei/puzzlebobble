@@ -1,0 +1,112 @@
+{
+    "meta": {
+        "image": "SpritesP1.png",
+        "size": {
+            "w": 625,
+            "h": 496
+        },
+        "scale": "1"
+    },
+    "frames": {
+        "tileset-wall-1": {
+            "frame": {
+                "x": 20,
+                "y": 380,
+                "w": 8,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 8,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 8,
+                "h": 32
+            }
+        },
+        "tileset-wall-2": {
+            "frame": {
+                "x": 20,
+                "y": 414,
+                "w": 8,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 8,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 8,
+                "h": 8
+            }
+        },
+        "tileset-wall-3": {
+            "frame": {
+                "x": 29,
+                "y": 414,
+                "w": 2,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 2,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 2,
+                "h": 8
+            }
+        },
+        "tileset-wall-4": {
+            "frame": {
+                "x": 20,
+                "y": 424,
+                "w": 8,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 8,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 8,
+                "h": 8
+            }
+        },
+        "tileset-arrow": {
+            "frame": {
+                "x": 15,
+                "y": 320,
+                "w": 22,
+                "h": 55
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 55
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 55
+            }
+        }
+    }
+}
