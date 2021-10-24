@@ -1,12 +1,15 @@
 import { Sprite } from "Tiny";
 import { Bobble, getBobbleSprites } from "./bobbles";
+import { Bubblun, getBubblunSprite } from "./bubblun";
 import { Anim, COLOR } from "./constants";
 import { Sound } from "./Sound";
 
 export default class GameLayer extends Tiny.Container {
 
     bobbleSprites = getBobbleSprites();
+    bubblunSprites = getBubblunSprite();
     arrow: Sprite;
+    bubblun: Bubblun;
     width: number = 8 * 16 + 7 * 2;
     height = 11 * 16;
     currentShot: Bobble;
@@ -72,11 +75,18 @@ export default class GameLayer extends Tiny.Container {
         arrow.setPosition(this.width / 2, 160 + 8);
         this.arrow = arrow;
 
+        this.bubblun = this.bubblunSprites[0];
+        this.bubblun.animationSpeed = 0.2;
+        this.bubblun.setAnchor(0.5);
+        this.bubblun.setPosition(56, this.height + 6);
+        this.bubblun.playAction(Anim.IDLE);
+        this.bubblun.on('actionend', this.bobbleActionEnd.bind(this))
+
         const shot = this.createBobbles(COLOR.BLUE);
         this.currentShot = shot;
         shot.setPosition(this.width / 2, 160 + 8);
 
-        this.addChild(arrow, shot);
+        this.addChild(arrow, this.bubblun, shot);
         this.genNext();
     }
 
@@ -373,9 +383,14 @@ export default class GameLayer extends Tiny.Container {
         if (shotEnd.gameY > 9) {
             this.emit("lose");
         }
-        this.currentShot = this.nextShot;
-        this.currentShot.setPosition(this.width / 2, 160 + 8);
-        this.genNext();
+        this.bubblun.playAction(Anim.MOVERIGHT);
+        
+        const action = Tiny.MoveTo(200, new Tiny.Point(this.width / 2, 160 + 8));
+        action.onComplete = ()=>{
+            this.currentShot = this.nextShot;
+            this.genNext();
+        };
+        this.nextShot.runAction(action);
         this.findExplosion(shotEnd);
     }
 

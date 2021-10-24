@@ -6,6 +6,7 @@ const logoPNG = 'res/images/Tiny.js.png';
 const bgPNG = 'res/images/bg.png';
 const tilesetVendorJSON = 'res/images/tilesets/tileset-vendor.json';
 const bobblesJSON = 'res/images/tilesets/tileset-bobbles.json';
+const bubblunJSON = 'res/images/tilesets/tileset-bubblun.json';
 const playerJSON = 'res/images/tilesets/tileset-player.json';
 
 const audios = {
@@ -24,6 +25,7 @@ export const resources = {
   tilesetVendorJSON,
   playerJSON,
   bobblesJSON,
+  bubblunJSON,
   audios: Object.keys(audios).map(name => {
     return { name, url: audios[name] }
   }),

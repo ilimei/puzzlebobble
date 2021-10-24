@@ -348,3 +348,37 @@ export const bobbles = {
         ]
     }
 };
+export const bubblun = {
+    "bubblun": {
+        "textures": [
+            "bubblun-bubblun-0",
+            "bubblun-bubblun-1",
+            "bubblun-bubblun-2",
+            "bubblun-bubblun-3",
+            "bubblun-bubblun-4",
+            "bubblun-bubblun-5",
+            "bubblun-bubblun-6",
+            "bubblun-bubblun-7",
+            "bubblun-bubblun-8",
+            "bubblun-bubblun-9",
+            "bubblun-bubblun-10",
+            "bubblun-bubblun-11"
+        ],
+        "idle": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "moveRight": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ]
+    }
+};

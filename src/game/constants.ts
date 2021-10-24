@@ -2,6 +2,7 @@ export enum Anim {
     IDLE = 'idle',
     SLASH = 'slash',
     EXPLOSION = 'explosion',
+    MOVERIGHT = 'moveRight',
 }
 
 export enum COLOR {

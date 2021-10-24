@@ -1,5 +1,6 @@
 // @ts-ignore
 const bobblesJSON = require("../res/images/tilesets/tileset-bobbles.json");
+const bubblunJSON = require("../res/images/tilesets/tileset-bubblun.json");
 const fs = require('fs');
 
 const bobbleAction = {};
@@ -240,9 +241,70 @@ bobblesJSON.frames = Object.keys(bobbles).reduce((ret, color) => {
     });
     return ret;
 }, {});
+
+fs.writeFileSync(__dirname + "/../res/images/tilesets/tileset-bobbles.json", JSON.stringify(bobblesJSON, null, 4));
+
+const bubblun = {
+    bubblun: {
+        idle: [
+            [11, 42, 26, 28],
+            [38, 42, 26, 28],
+            [65, 42, 26, 28],
+            [92, 42, 26, 28],
+        ],
+        moveRight: [
+            [8, 18, 29, 19],
+            [38, 18, 29, 19],
+            [68, 18, 29, 19],
+            [98, 18, 29, 19],
+            [128, 18, 29, 19],
+            [158, 18, 29, 19],
+            [188, 18, 29, 19],
+            [218, 18, 29, 19],
+        ],
+    },
+}
+const bubblunAction = {};
+bubblunJSON.frames = Object.keys(bubblun).reduce((ret, color) => {
+    const colorAnim = bubblun[color];
+    bubblunAction[color] = {};
+    let frameIndex = 0;
+    const textures = [];
+    bubblunAction[color].textures = textures;
+    Object.keys(colorAnim).forEach(animName => {
+        bubblunAction[color][animName] = [];
+        colorAnim[animName].forEach(([x, y, w, h]) => {
+            bubblunAction[color][animName].push(frameIndex);
+            const name = `bubblun-${color}-${frameIndex++}`;
+            textures.push(name);
+            ret[name] = {
+                "frame": {
+                    "x": x,
+                    "y": y,
+                    "w": w,
+                    "h": h
+                },
+                "rotated": false,
+                "trimmed": false,
+                "spriteSourceSize": {
+                    "x": 0,
+                    "y": 0,
+                    "w": w,
+                    "h": h
+                },
+                "sourceSize": {
+                    "w": w,
+                    "h": h
+                }
+            };
+        });
+    });
+    return ret;
+}, {});
+fs.writeFileSync(__dirname + "/../res/images/tilesets/tileset-bubblun.json", JSON.stringify(bubblunJSON, null, 4));
+
 fs.writeFileSync(__dirname + "/../src/resources/bobbles.ts", `
 // auto generator
 export const bobbles = ${JSON.stringify(bobbleAction, null, 4)};
+export const bubblun = ${JSON.stringify(bubblunAction, null, 4)};
 `);
-fs.writeFileSync(__dirname + "/../res/images/tilesets/tileset-bobbles.json", JSON.stringify(bobblesJSON, null, 4));
-

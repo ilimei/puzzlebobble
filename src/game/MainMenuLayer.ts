@@ -36,10 +36,12 @@ class MainMenuLayer extends Tiny.Container {
   }
 
   onReady() {
-    Sound.getInstance().playReadyGo();
-    Sound.getInstance().playBg();
-    // console.log('--- start ---');
-    Tiny.app.replaceScene(new StartLayer(), 'SlideInB', 800);
+    if (!Sound.getInstance().isPlaying) {
+      Sound.getInstance().playReadyGo();
+      Sound.getInstance().playBg();
+      // console.log('--- start ---');
+      Tiny.app.replaceScene(new StartLayer(), 'SlideInB', 800);
+    }
   }
 
   startAction() {

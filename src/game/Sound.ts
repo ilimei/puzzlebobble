@@ -8,15 +8,18 @@ export class Sound {
     }
 
     bg: any;
+    isPlaying = false;
 
     playBg() {
         const music = Tiny.audio.manager.getAudio('bgMusic');
         music.loop = true;
         this.bg = music;
+        this.isPlaying = true;
         music.play();
     }
 
     stopBg() {
+        this.isPlaying = false;
         if (this.bg) {
             this.bg.stop();
         }
