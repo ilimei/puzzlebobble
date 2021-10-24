@@ -1,5 +1,5 @@
+import MainMenuLayer from './game/MainMenuLayer';
 import { resources } from './game/resources';
-import StartLayer from './game/StartLayer';
 
 require('./css/index.less');
 
@@ -39,7 +39,7 @@ const main = {
         body.removeChild(percent);
         body.removeChild(progress.parentNode);
 
-        const mainMenuLayer = new StartLayer();
+        const mainMenuLayer = new MainMenuLayer();
         Tiny.app.run(mainMenuLayer);
         mainMenuLayer.emit('transitionend');
       },

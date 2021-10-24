@@ -12,8 +12,10 @@ const audios = {
   bgMusic: 'res/sounds/SinglePlayerMusic.ogg',
   readyGo: 'res/sounds/Reagy!Go!.ogg',
   elimination: 'res/sounds/BallsElimination.ogg',
-  extraElimination: 'res/sounds/ExtraBallsElimination.ogg',
+  extraElimination: 'res/sounds/BallsScore.ogg',
   shot: 'res/sounds/BubbleShot.ogg',
+  lose: 'res/sounds/Game_Over.ogg',
+  win: 'res/sounds/Continue.ogg'
 };
 
 export const resources = {

@@ -1,6 +1,7 @@
 import { Sprite } from "Tiny";
 import { Bobble, getBobbleSprites } from "./bobbles";
 import { Anim, COLOR } from "./constants";
+import { Sound } from "./Sound";
 
 export default class GameLayer extends Tiny.Container {
 
@@ -9,15 +10,20 @@ export default class GameLayer extends Tiny.Container {
     width: number = 8 * 16 + 7 * 2;
     height = 11 * 16;
     currentShot: Bobble;
+    nextShot: Bobble;
     speed: number = 160;
     gameBobble: Bobble[][];
+    bobbleList: Bobble[];
+
+    canShot = true;
 
     constructor() {
         super();
+        this.bobbleList = [];
         this.gameBobble = new Array(8).fill(1).map(() => {
             return new Array(16).fill(null);
         })
-        this.initWall();
+        this.initUI();
         this.initBobbles();
         this.initArrow();
         this.initEvent();
@@ -25,21 +31,22 @@ export default class GameLayer extends Tiny.Container {
         window.Game = this;
     }
 
-    initWall() {
+    initUI() {
         const bg = Tiny.Sprite.fromImage(Tiny.resources.bgPNG);
         bg.setPosition(-1, -1);
-        this.addChild(bg);
+
+        const bag = Tiny.Sprite.fromFrame('tileset-bag');
+        bag.setPosition(0, this.height - 4);
+
+        this.addChild(bg, bag);
     }
 
     initEvent() {
-        this.on('shotend', this.onShotEnd.bind(this));
-        const readyGo = Tiny.audio.manager.getAudio('readyGo');
-        readyGo.play();
-        readyGo.on('end', () => {
-            const music = Tiny.audio.manager.getAudio('bgMusic');
-            music.loop = true;
-            music.play();
-        });
+        this.on('shotend', this.handleShotEnd.bind(this));
+        this.on('bobbleadd', this.handleAddBobble.bind(this));
+        this.on('bobbleremove', this.handleBobbleRemove.bind(this));
+        this.on("win", this.handleWin.bind(this));
+        this.on("lose", this.handleLose.bind(this));
     }
 
     initBobbles() {
@@ -52,6 +59,7 @@ export default class GameLayer extends Tiny.Container {
                 bobble.gameX = gameX;
                 bobble.gameY = gameY;
                 this.gameBobble[gameX][gameY] = bobble;
+                this.bobbleList.push(bobble);
                 bobble.setPosition(x, y);
                 this.addChild(bobble);
             }
@@ -69,6 +77,15 @@ export default class GameLayer extends Tiny.Container {
         shot.setPosition(this.width / 2, 160 + 8);
 
         this.addChild(arrow, shot);
+        this.genNext();
+    }
+
+    genNext() {
+        const colors = this.bobbleList.map(v => v?.color).filter(v => !isNaN(v));
+        const nextShot = this.createBobbles(colors[Math.floor(Math.random() * colors.length)]);
+        this.nextShot = nextShot;
+        nextShot.setPosition(40, this.height + 12);
+        this.addChild(this.nextShot);
     }
 
     setDist(x: number, y: number) {
@@ -92,7 +109,7 @@ export default class GameLayer extends Tiny.Container {
     }
 
     shot(x: number, y: number) {
-        if (this.currentShot) {
+        if (this.currentShot && this.canShot) {
             const dx = x - this.arrow.getGlobalPosition().x;
             const dy = y - this.arrow.getGlobalPosition().y;
             let radion = Math.atan2(dy, dx) + Math.PI / 2;
@@ -100,8 +117,7 @@ export default class GameLayer extends Tiny.Container {
                 radion = 0.001;
             }
             this.arrow.setRotation(radion);
-            const music = Tiny.audio.manager.getAudio('shot');
-            music.play();
+            Sound.getInstance().playShot();
 
             const shot = this.currentShot;
             this.currentShot = null;
@@ -153,6 +169,7 @@ export default class GameLayer extends Tiny.Container {
                 shot.gameX = gameX;
                 shot.gameY = gameY;
                 this.gameBobble[gameX][gameY] = shot;
+                this.emit('bobbleadd', shot);
                 shot.setPosition(x, y);
                 shot.setRotation(0);
                 action.stop();
@@ -166,6 +183,7 @@ export default class GameLayer extends Tiny.Container {
         shot.gameX = gameX;
         shot.gameY = gameY;
         this.gameBobble[gameX][gameY] = shot;
+        this.emit('bobbleadd', shot);
         shot.setPosition(x, y);
         shot.setRotation(0);
         action.stop();
@@ -227,16 +245,6 @@ export default class GameLayer extends Tiny.Container {
         bobble.playAction(Anim.IDLE);
 
         return bobble;
-    }
-
-    onShotEnd(shotEnd: Bobble) {
-        const colors = this.gameBobble.flat().map(v => v?.color).filter(v => !isNaN(v));
-        console.info(colors);
-        const shot = this.createBobbles(colors[Math.floor(Math.random() * colors.length)]);
-        this.currentShot = shot;
-        shot.setPosition(this.width / 2, 160 + 8);
-        this.addChild(this.currentShot);
-        this.findExplosion(shotEnd);
     }
 
     findExplosion(shotEnd: Bobble) {
@@ -328,8 +336,7 @@ export default class GameLayer extends Tiny.Container {
             });
             list.forEach(v => v.playAction(Anim.EXPLOSION));
             if (list.length + drop.length >= 4) {
-                const music = Tiny.audio.manager.getAudio('extraElimination');
-                music.play();
+                Sound.getInstance().playExtraExplosion();
             }
         }
     }
@@ -347,8 +354,7 @@ export default class GameLayer extends Tiny.Container {
 
     static bobbleActionStart(anim: Anim) {
         if (Anim.EXPLOSION === anim) {
-            const music = Tiny.audio.manager.getAudio('elimination');
-            music.play();
+            Sound.getInstance().playExplosion();
         }
     }
 
@@ -358,13 +364,61 @@ export default class GameLayer extends Tiny.Container {
         }
         if (Anim.EXPLOSION === anim) {
             this.gameBobble[bobble.gameX][bobble.gameY] = null;
+            this.emit('bobbleremove', bobble);
             this.removeChild(bobble);
-            this.printBobbles();
         }
     }
 
+    handleShotEnd(shotEnd: Bobble) {
+        if (shotEnd.gameY > 9) {
+            this.emit("lose");
+        }
+        this.currentShot = this.nextShot;
+        this.currentShot.setPosition(this.width / 2, 160 + 8);
+        this.genNext();
+        this.findExplosion(shotEnd);
+    }
+
     handleDropEnd(bobble: Bobble) {
+        this.emit('bobbleremove', bobble);
         this.removeChild(bobble);
+    }
+
+    handleAddBobble(bobble: Bobble) {
+        const index = this.bobbleList.indexOf(bobble);
+        if (index < 0) {
+            this.bobbleList.push(bobble);
+        }
+    }
+
+    handleBobbleRemove(bobble) {
+        const index = this.bobbleList.indexOf(bobble);
+        if (index >= 0) {
+            this.bobbleList.splice(index, 1);
+        }
+        if (this.bobbleList.length === 0) {
+            this.emit('win');
+        }
+    }
+
+    handleWin() {
+        this.canShot = false;
+        Sound.getInstance().stopBg();
+        Sound.getInstance().playWin();
+        const win = Tiny.Sprite.fromFrame('tileset-win');
+        win.setAnchor(0.5);
+        win.setPosition(this.width / 2, this.height / 2);
+        this.addChild(win);
+    }
+
+    handleLose() {
+        this.canShot = false;
+        Sound.getInstance().stopBg();
+        Sound.getInstance().playLose();
+        const lose = Tiny.Sprite.fromFrame('tileset-lose');
+        lose.setAnchor(0.5);
+        lose.setPosition(this.width / 2, this.height / 2);
+        this.addChild(lose);
     }
 
     printBobbles() {

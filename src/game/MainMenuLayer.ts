@@ -1,4 +1,5 @@
 import * as ui from 'tinyjs-plugin-ui';
+import { Sound } from './Sound';
 import StartLayer from './StartLayer';
 
 class MainMenuLayer extends Tiny.Container {
@@ -35,6 +36,8 @@ class MainMenuLayer extends Tiny.Container {
   }
 
   onReady() {
+    Sound.getInstance().playReadyGo();
+    Sound.getInstance().playBg();
     // console.log('--- start ---');
     Tiny.app.replaceScene(new StartLayer(), 'SlideInB', 800);
   }

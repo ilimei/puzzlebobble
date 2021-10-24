@@ -8,11 +8,11 @@
         "scale": "1"
     },
     "frames": {
-        "tileset-wall-1": {
+        "tileset-lose": {
             "frame": {
-                "x": 20,
-                "y": 380,
-                "w": 8,
+                "x": 84,
+                "y": 358,
+                "w": 125,
                 "h": 32
             },
             "rotated": false,
@@ -20,72 +20,52 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 8,
+                "w": 125,
                 "h": 32
             },
             "sourceSize": {
-                "w": 8,
+                "w": 125,
                 "h": 32
             }
         },
-        "tileset-wall-2": {
+        "tileset-win": {
             "frame": {
-                "x": 20,
-                "y": 414,
-                "w": 8,
-                "h": 8
+                "x": 81,
+                "y": 320,
+                "w": 110,
+                "h": 33
             },
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 8,
-                "h": 8
+                "w": 110,
+                "h": 33
             },
             "sourceSize": {
-                "w": 8,
-                "h": 8
+                "w": 110,
+                "h": 33
             }
         },
-        "tileset-wall-3": {
+        "tileset-bag": {
             "frame": {
-                "x": 29,
-                "y": 414,
-                "w": 2,
-                "h": 8
+                "x": 358,
+                "y": 233,
+                "w": 56,
+                "h": 24
             },
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 2,
-                "h": 8
+                "w": 56,
+                "h": 24
             },
             "sourceSize": {
-                "w": 2,
-                "h": 8
-            }
-        },
-        "tileset-wall-4": {
-            "frame": {
-                "x": 20,
-                "y": 424,
-                "w": 8,
-                "h": 8
-            },
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {
-                "x": 0,
-                "y": 0,
-                "w": 8,
-                "h": 8
-            },
-            "sourceSize": {
-                "w": 8,
-                "h": 8
+                "w": 56,
+                "h": 24
             }
         },
         "tileset-arrow": {
