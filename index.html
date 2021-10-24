@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8"/>
-<title>puzzlebobble</title>
-<meta name="apple-mobile-web-app-capable" content="yes"/>
-<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-<meta name="format-detection" content="telephone=no"/>
-<meta name="format-detection" content="email=no"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0"/>
+  <meta charset="UTF-8" />
+  <title>puzzlebobble</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
 </head>
+
 <body>
-<div class="bar">
-  <i id="progress"></i>
-</div>
-<p id="percent">Loading..</p>
-<script src="https://gw.alipayobjects.com/os/lib/tinyjs/tiny/1.4.0/tiny.js"></script>
-<script src="https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-audio/1.2.0/index.js"></script>
-<script src="https://gw.alipayobjects.com/os/lib/tinyjs-plugin-tiling/0.1.1/index.js"></script>
+  <div class="bar">
+    <i id="progress"></i>
+  </div>
+  <p id="percent">Loading..</p>
+  <script src="https://gw.alipayobjects.com/os/lib/tinyjs/tiny/1.4.0/tiny.js"></script>
+  <script>
+
+    var ua = window.navigator.userAgent;
+    var matchesSafari = ua.match(/Version\/(\d+)/);
+    var matchesOS = ua.match(/OS\s(\d+)/);
+    if (ua.indexOf('iPhone') > -1 && (+matchesOS[1] >= 10 || +matchesSafari[1] >= 10)) {
+      // @ts-ignore
+      window.disableWebAudio = false;
+    } else {
+      // @ts-ignore
+      window.disableWebAudio = true;
+    }
+  </script>
+  <script src="https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-audio/1.2.0/index.js"></script>
 </body>
+
 </html>

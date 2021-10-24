@@ -1,17 +1,6 @@
 import { resources } from './game/resources';
 import StartLayer from './game/StartLayer';
 
-var ua = window.navigator.userAgent;
-var matchesSafari = ua.match(/Version\/(\d+)/);
-var matchesOS = ua.match(/OS\s(\d+)/);
-if (ua.indexOf('iPhone') > -1 && (+matchesOS[1] >= 10 || +matchesSafari[1] >= 10)) {
-  // @ts-ignore
-  window.disableWebAudio = false;
-} else {
-  // @ts-ignore
-  window.disableWebAudio = true;
-}
-
 require('./css/index.less');
 
 Tiny.app = new Tiny.Application({
