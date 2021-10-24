@@ -19,7 +19,15 @@
   <p id="percent">Loading..</p>
   <script src="https://gw.alipayobjects.com/os/lib/tinyjs/tiny/1.4.0/tiny.js"></script>
   <script>
-    window.disableWebAudio = true;
+    // 简单的示例，最终以实际情况为准。(注意 iOS 8 模拟器 ua 存在问题，8.3 以后得到修复。)
+    var ua = window.navigator.userAgent;
+    var matchesSafari = ua.match(/Version\/(\d+)/);
+    var matchesOS = ua.match(/OS\s(\d+)/);
+    if (ua.indexOf('iPhone') > -1 && (matchesOS[1] >= 10 || matchesSafari[1] >= 10)) {
+      window.disableWebAudio = false;
+    } else {
+      window.disableWebAudio = true;
+    }
   </script>
   <script src="https://gw.alipayobjects.com/as/g/tiny-plugins/tinyjs-plugin-audio/1.2.0/index.js"></script>
 </body>
