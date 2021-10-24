@@ -18,3 +18,6 @@
 
 ## 资源来源
 https://github.com/carcasanchez/Puzzle-Bobble
+
+## 演示地址
+https://ilimei.github.io/puzzlebobble/
