@@ -76,7 +76,7 @@ module.exports = (env, argv) => {
     ],
     output: {
       filename: 'index.[hash:5].js',
-      path: path.resolve(__dirname, 'dist'),
+      path: path.resolve(__dirname, 'docs'),
     },
   };
 };

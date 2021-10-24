@@ -1,0 +1,2672 @@
+{
+    "meta": {
+        "image": "Bobbles.png",
+        "size": {
+            "w": 566,
+            "h": 326
+        },
+        "scale": "1"
+    },
+    "frames": {
+        "bobbles-blue-0": {
+            "frame": {
+                "x": 11,
+                "y": 16,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-blue-1": {
+            "frame": {
+                "x": 31,
+                "y": 16,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-blue-2": {
+            "frame": {
+                "x": 51,
+                "y": 16,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-blue-3": {
+            "frame": {
+                "x": 11,
+                "y": 16,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-blue-4": {
+            "frame": {
+                "x": 71,
+                "y": 16,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-blue-5": {
+            "frame": {
+                "x": 92,
+                "y": 16,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-blue-6": {
+            "frame": {
+                "x": 112,
+                "y": 16,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-blue-7": {
+            "frame": {
+                "x": 132,
+                "y": 16,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-blue-8": {
+            "frame": {
+                "x": 152,
+                "y": 16,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-blue-9": {
+            "frame": {
+                "x": 172,
+                "y": 16,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-blue-10": {
+            "frame": {
+                "x": 198,
+                "y": 8,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-blue-11": {
+            "frame": {
+                "x": 231,
+                "y": 8,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-blue-12": {
+            "frame": {
+                "x": 264,
+                "y": 8,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-blue-13": {
+            "frame": {
+                "x": 297,
+                "y": 8,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-blue-14": {
+            "frame": {
+                "x": 330,
+                "y": 8,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-blue-15": {
+            "frame": {
+                "x": 363,
+                "y": 8,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-blue-16": {
+            "frame": {
+                "x": 396,
+                "y": 8,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-gray-0": {
+            "frame": {
+                "x": 11,
+                "y": 42,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-gray-1": {
+            "frame": {
+                "x": 31,
+                "y": 42,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-gray-2": {
+            "frame": {
+                "x": 51,
+                "y": 42,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-gray-3": {
+            "frame": {
+                "x": 11,
+                "y": 42,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-gray-4": {
+            "frame": {
+                "x": 71,
+                "y": 42,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-gray-5": {
+            "frame": {
+                "x": 92,
+                "y": 42,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-gray-6": {
+            "frame": {
+                "x": 112,
+                "y": 42,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-gray-7": {
+            "frame": {
+                "x": 132,
+                "y": 42,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-gray-8": {
+            "frame": {
+                "x": 152,
+                "y": 42,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-gray-9": {
+            "frame": {
+                "x": 172,
+                "y": 42,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-gray-10": {
+            "frame": {
+                "x": 198,
+                "y": 40,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-gray-11": {
+            "frame": {
+                "x": 231,
+                "y": 40,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-gray-12": {
+            "frame": {
+                "x": 264,
+                "y": 40,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-gray-13": {
+            "frame": {
+                "x": 297,
+                "y": 40,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-gray-14": {
+            "frame": {
+                "x": 330,
+                "y": 40,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-gray-15": {
+            "frame": {
+                "x": 363,
+                "y": 40,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-gray-16": {
+            "frame": {
+                "x": 396,
+                "y": 40,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-red-0": {
+            "frame": {
+                "x": 11,
+                "y": 68,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-red-1": {
+            "frame": {
+                "x": 71,
+                "y": 68,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-red-2": {
+            "frame": {
+                "x": 92,
+                "y": 68,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-red-3": {
+            "frame": {
+                "x": 112,
+                "y": 68,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-red-4": {
+            "frame": {
+                "x": 132,
+                "y": 68,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-red-5": {
+            "frame": {
+                "x": 152,
+                "y": 68,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-red-6": {
+            "frame": {
+                "x": 172,
+                "y": 68,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-red-7": {
+            "frame": {
+                "x": 198,
+                "y": 72,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-red-8": {
+            "frame": {
+                "x": 231,
+                "y": 72,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-red-9": {
+            "frame": {
+                "x": 264,
+                "y": 72,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-red-10": {
+            "frame": {
+                "x": 297,
+                "y": 72,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-red-11": {
+            "frame": {
+                "x": 330,
+                "y": 72,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-red-12": {
+            "frame": {
+                "x": 363,
+                "y": 72,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-red-13": {
+            "frame": {
+                "x": 396,
+                "y": 72,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-yellow-0": {
+            "frame": {
+                "x": 11,
+                "y": 94,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-yellow-1": {
+            "frame": {
+                "x": 31,
+                "y": 94,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-yellow-2": {
+            "frame": {
+                "x": 51,
+                "y": 94,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-yellow-3": {
+            "frame": {
+                "x": 11,
+                "y": 94,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-yellow-4": {
+            "frame": {
+                "x": 71,
+                "y": 94,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-yellow-5": {
+            "frame": {
+                "x": 92,
+                "y": 94,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-yellow-6": {
+            "frame": {
+                "x": 112,
+                "y": 94,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-yellow-7": {
+            "frame": {
+                "x": 132,
+                "y": 94,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-yellow-8": {
+            "frame": {
+                "x": 152,
+                "y": 94,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-yellow-9": {
+            "frame": {
+                "x": 172,
+                "y": 94,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-yellow-10": {
+            "frame": {
+                "x": 198,
+                "y": 104,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-yellow-11": {
+            "frame": {
+                "x": 231,
+                "y": 104,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-yellow-12": {
+            "frame": {
+                "x": 264,
+                "y": 104,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-yellow-13": {
+            "frame": {
+                "x": 297,
+                "y": 104,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-yellow-14": {
+            "frame": {
+                "x": 330,
+                "y": 104,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-yellow-15": {
+            "frame": {
+                "x": 363,
+                "y": 104,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-yellow-16": {
+            "frame": {
+                "x": 396,
+                "y": 104,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-green-0": {
+            "frame": {
+                "x": 11,
+                "y": 120,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-green-1": {
+            "frame": {
+                "x": 31,
+                "y": 120,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-green-2": {
+            "frame": {
+                "x": 51,
+                "y": 120,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-green-3": {
+            "frame": {
+                "x": 11,
+                "y": 120,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-green-4": {
+            "frame": {
+                "x": 71,
+                "y": 120,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-green-5": {
+            "frame": {
+                "x": 92,
+                "y": 120,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-green-6": {
+            "frame": {
+                "x": 112,
+                "y": 120,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-green-7": {
+            "frame": {
+                "x": 132,
+                "y": 120,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-green-8": {
+            "frame": {
+                "x": 152,
+                "y": 120,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-green-9": {
+            "frame": {
+                "x": 172,
+                "y": 120,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-green-10": {
+            "frame": {
+                "x": 198,
+                "y": 136,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-green-11": {
+            "frame": {
+                "x": 231,
+                "y": 136,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-green-12": {
+            "frame": {
+                "x": 264,
+                "y": 136,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-green-13": {
+            "frame": {
+                "x": 297,
+                "y": 136,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-green-14": {
+            "frame": {
+                "x": 330,
+                "y": 136,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-green-15": {
+            "frame": {
+                "x": 363,
+                "y": 136,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-green-16": {
+            "frame": {
+                "x": 396,
+                "y": 136,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-black-0": {
+            "frame": {
+                "x": 11,
+                "y": 146,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-black-1": {
+            "frame": {
+                "x": 31,
+                "y": 146,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-black-2": {
+            "frame": {
+                "x": 51,
+                "y": 146,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-black-3": {
+            "frame": {
+                "x": 11,
+                "y": 146,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-black-4": {
+            "frame": {
+                "x": 71,
+                "y": 146,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-black-5": {
+            "frame": {
+                "x": 92,
+                "y": 146,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-black-6": {
+            "frame": {
+                "x": 112,
+                "y": 146,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-black-7": {
+            "frame": {
+                "x": 132,
+                "y": 146,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-black-8": {
+            "frame": {
+                "x": 152,
+                "y": 146,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-black-9": {
+            "frame": {
+                "x": 172,
+                "y": 146,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-black-10": {
+            "frame": {
+                "x": 198,
+                "y": 168,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-black-11": {
+            "frame": {
+                "x": 231,
+                "y": 168,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-black-12": {
+            "frame": {
+                "x": 264,
+                "y": 168,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-black-13": {
+            "frame": {
+                "x": 297,
+                "y": 168,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-black-14": {
+            "frame": {
+                "x": 330,
+                "y": 168,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-black-15": {
+            "frame": {
+                "x": 363,
+                "y": 168,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-black-16": {
+            "frame": {
+                "x": 396,
+                "y": 168,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-orange-0": {
+            "frame": {
+                "x": 11,
+                "y": 172,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-orange-1": {
+            "frame": {
+                "x": 31,
+                "y": 172,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-orange-2": {
+            "frame": {
+                "x": 51,
+                "y": 172,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-orange-3": {
+            "frame": {
+                "x": 11,
+                "y": 172,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-orange-4": {
+            "frame": {
+                "x": 71,
+                "y": 172,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-orange-5": {
+            "frame": {
+                "x": 92,
+                "y": 172,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-orange-6": {
+            "frame": {
+                "x": 112,
+                "y": 172,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-orange-7": {
+            "frame": {
+                "x": 132,
+                "y": 172,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-orange-8": {
+            "frame": {
+                "x": 152,
+                "y": 172,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-orange-9": {
+            "frame": {
+                "x": 172,
+                "y": 172,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-orange-10": {
+            "frame": {
+                "x": 198,
+                "y": 200,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-orange-11": {
+            "frame": {
+                "x": 231,
+                "y": 200,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-orange-12": {
+            "frame": {
+                "x": 264,
+                "y": 200,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-orange-13": {
+            "frame": {
+                "x": 297,
+                "y": 200,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-orange-14": {
+            "frame": {
+                "x": 330,
+                "y": 200,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-orange-15": {
+            "frame": {
+                "x": 363,
+                "y": 200,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-orange-16": {
+            "frame": {
+                "x": 396,
+                "y": 200,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-violet-0": {
+            "frame": {
+                "x": 11,
+                "y": 198,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-violet-1": {
+            "frame": {
+                "x": 31,
+                "y": 198,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-violet-2": {
+            "frame": {
+                "x": 51,
+                "y": 198,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-violet-3": {
+            "frame": {
+                "x": 11,
+                "y": 198,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-violet-4": {
+            "frame": {
+                "x": 71,
+                "y": 198,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-violet-5": {
+            "frame": {
+                "x": 92,
+                "y": 198,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-violet-6": {
+            "frame": {
+                "x": 112,
+                "y": 198,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-violet-7": {
+            "frame": {
+                "x": 132,
+                "y": 198,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-violet-8": {
+            "frame": {
+                "x": 152,
+                "y": 198,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-violet-9": {
+            "frame": {
+                "x": 172,
+                "y": 198,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "bobbles-violet-10": {
+            "frame": {
+                "x": 198,
+                "y": 232,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-violet-11": {
+            "frame": {
+                "x": 231,
+                "y": 232,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-violet-12": {
+            "frame": {
+                "x": 264,
+                "y": 232,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-violet-13": {
+            "frame": {
+                "x": 297,
+                "y": 232,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-violet-14": {
+            "frame": {
+                "x": 330,
+                "y": 232,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-violet-15": {
+            "frame": {
+                "x": 363,
+                "y": 232,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "bobbles-violet-16": {
+            "frame": {
+                "x": 396,
+                "y": 232,
+                "w": 32,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        }
+    }
+}
